@@ -9,4 +9,4 @@ def f1_micro(y_true, y_pred) -> float:
         if i == j:
             tp += 1
             print(tp)
-    return tp/total
+    return tp/total # simply just try to know how many are tp/total = accuracy
